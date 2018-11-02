@@ -4,7 +4,9 @@
   "description": "A fastify HTTP/2 Node server, handling also a socket.io connection",
   "main": "index.js",
   "scripts": {
-    "start": "start nodemon index.js && start nodemon websocket.js",
+    "start-win": "start npm run start-http2 && start npm run start-ws",
+    "start-http2": "nodemon index.js",
+    "start-ws": "nodemon websocket.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andy Ghiuta <andy.ghiuta@gmail.com>",
@@ -13,8 +15,6 @@
     "fastify": "^1.13.0",
     "fastify-auto-push": "^0.4.0",
     "fastify-compress": "^0.7.0",
-    "glob": "^7.1.3",
-    "mime": "^2.3.1",
     "socket.io": "^2.1.1"
   }
 }
