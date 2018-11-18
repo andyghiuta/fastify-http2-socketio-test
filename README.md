@@ -12,7 +12,7 @@ $ npm i -g nodemon
 
 
 ## Start
-For * nix, in separate terminals:
+For Linux/MacOS, in separate terminals:
 
 ```
 $ npm run start-http2
