@@ -1,6 +1,5 @@
 node_modules/
 dist/
-public/
 config/settings.js
 config/combined.*
 *.sublime-workspace

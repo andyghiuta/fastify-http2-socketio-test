@@ -1,0 +1,2687 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    border: 0;
+    outline: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 28px;
+    color: #000000;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+input:focus {
+    outline: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+.container {
+    max-width: 1086px;
+}
+
+/* -------Header-------- */
+header {
+    height: 105px;
+    transition: all 0.5s;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+header .container {
+    height: 100%;
+}
+
+header .container nav {
+    height: 100%;
+}
+
+header .container nav .navbar-brand {
+    border-right: 1px solid rgba(255, 255, 255, .2);
+}
+
+header .container nav .navbar-brand,
+header .container nav .navbar-brand .nav-sec {
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    align-items: center;
+}
+
+header .container nav .search-box input {
+    padding: 0px 10px 0px 20px;
+    font-size: 14px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: #fff;
+    height: 100%;
+    border-radius: 100px 0 0 100px;
+}
+
+header .container nav .search-box button {
+    float: left;
+    width: 20%;
+    padding: 4px 0 5px;
+    background: #fff;
+    font-size: 18px;
+    border: none;
+    border-left: none;
+    cursor: pointer;
+    height: 100%;
+    border-radius: 0 100px 100px 0;
+}
+
+header .container nav .search-box button i {
+    color: #c6c6c6;
+}
+
+header .menu-icon {
+    cursor: pointer;
+    width: 33px;
+}
+
+header .menu-icon span {
+    display: block;
+    background: #fff;
+    width: 18px;
+    height: 2px;
+    margin: 6px 0;
+}
+
+header .menu-icon span:nth-child(2) {
+    width: 25px;
+}
+
+header .menu-icon span:last-child {
+    width: 33px;
+}
+
+header.scrolled {
+    height: 70px;
+    background: #242424;
+}
+
+header div.search-box {
+    min-width: 130px;
+    height: 35px;
+    margin-right: 20px;
+    border-radius: 100px;
+}
+
+header nav ul li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: -0.6px;
+    font-weight: 700;
+}
+
+header #cls-btn {
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    z-index: 999;
+}
+
+header .navbar .header-nav {
+    padding-left: 20px;
+}
+
+/* ------End of Header-----*/
+
+
+/* -----Banner------- */
+section.banner {
+    background: url(../images/banner.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    align-items: center;
+    padding-top: 225px;
+    padding-bottom: 140px;
+}
+
+section.banner .container {
+    text-align: center;
+}
+
+section.banner .container h1 {
+    color: #fff;
+    font-size: 80px;
+    letter-spacing: -0.6px;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 27px;
+}
+
+section.banner .container h6 {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: -0.4px;
+    font-weight: 300;
+    margin-bottom: 64px;
+}
+
+section .container .get-started-btn {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 244, 123, 1) 22%, rgba(255, 223, 49, 1) 95%);
+    display: inline-block;
+    text-transform: uppercase;
+    min-width: 209px;
+    min-height: 69px;
+    line-height: 69px;
+    border-radius: 100px;
+    transition: all 0.5s;
+}
+
+section .container .get-started-btn:hover {
+    background: #fff;
+    color: #000000;
+}
+
+/* -----End of Banner------ */
+
+/* -----Index About Sec----- */
+section.index-about-sec {
+    width: 100%;
+    background: url(../images/about-bg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+section.index-about-sec .layer {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.79);
+    padding-top: 100px;
+    padding-bottom: 105px;
+}
+
+section.index-about-sec h5 {
+    font-size: 35px;
+    color: #fff;
+    letter-spacing: -0.6px;
+    font-weight: 400;
+    margin-bottom: 31px;
+}
+
+section.index-about-sec .container>p {
+    font-size: 14px;
+    line-height: 27px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 27px;
+}
+
+section.index-about-sec ul li {
+    text-align: left;
+}
+
+section.index-about-sec ul li .index-abt-content {
+    padding: 30px 30px;
+    background: linear-gradient(135deg, rgba(116, 78, 102, 1) 22%, rgba(54, 109, 121, 1) 95%);
+}
+
+section.index-about-sec ul li .index-abt-content h3 {
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #fff200;
+    text-transform: uppercase;
+    padding-right: 15px;
+}
+
+section.index-about-sec ul li .index-abt-content p {
+    font-size: 13px;
+    letter-spacing: -0.4px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+
+/* -----End of About Sec----- */
+
+/* -----Index Services------- */
+section.index-services {
+    width: 100%;
+    background: url(../images/index-service.jpg);
+    padding: 106px 0 106px;
+    float: left;
+}
+
+section.index-services .services-filter {
+    width: 100%;
+    border: 1px solid #cacaca;
+    float: left;
+    background: #fff;
+    /* padding-top: 30px; */
+}
+
+section.index-services .services-filter .service-list {
+    width: 20%;
+    float: left;
+}
+
+section.index-services .services-filter .service-list h3 {
+    border: 1px solid #cacaca;
+    border-left: none;
+    border-bottom: none;
+    margin: 0;
+    background: #f6f6f6;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #363636;
+    letter-spacing: -0.4px;
+    padding: 40px;
+    cursor: pointer;
+}
+
+section.index-services .services-filter .service-list h3:first-child {
+    border-top: 0;
+}
+
+section.index-services .services-filter .service-list h3.current {
+    border-right: 0;
+    background: #fff;
+}
+
+section.index-services .services-filter .service-images {
+    float: left;
+    width: 80%;
+    padding: 40px 40px 33px 20px;
+    text-align: right;
+
+}
+
+section.index-services .services-filter .service-images>a {
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+section.index-services .services-filter .service-images ul li {
+    display: inline-block;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+section.index-services .services-filter .service-images ul.article-section {
+    padding-bottom: 45px;
+}
+
+section.index-services .services-filter .service-images ul.article-section li {
+    width: 49.7%;
+    text-align: initial;
+}
+
+.service-images ul.article-section li h4 {
+    font-size: 24px;
+    letter-spacing: -0.6px;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 15px 0 10px
+}
+
+.service-images ul.article-section li p {
+    font-size: 15px;
+    color: #000000;
+    opacity: 0.6;
+    letter-spacing: -0.4px;
+    line-height: 30px;
+    text-align: initial;
+    margin-bottom: 20px
+}
+
+.service-images ul.article-section li .article-btn {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 244, 123, 1) 22%, rgba(255, 223, 49, 1) 95%);
+    display: inline-block;
+    text-transform: uppercase;
+    min-width: 160px;
+    min-height: 49px;
+    line-height: 49px;
+    border-radius: 100px;
+    transition: all 0.5s;
+}
+
+section.index-services .services-filter .service-images ul li figure {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+section.index-services .services-filter .service-images ul.pricing-section li {
+    width: 47%;
+    height: 100%;
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    padding: 0;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+section.index-services .services-filter .service-images ul.pricing-section {
+    margin-bottom: 30px;
+}
+
+.service-images ul.pricing-section li h2 {
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 0 10px;
+}
+
+.service-images ul.pricing-section .buy-now {
+    display: inline-block;
+    min-width: 120px;
+    min-height: 40px;
+    background: linear-gradient(180deg, rgba(255, 244, 123, 1) 22%, rgba(255, 223, 49, 1) 95%);
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.service-images ul.pricing-section .buy-now:focus {
+    outline: 0;
+}
+
+.service-images ul.pricing-section li h6 {
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.service-images ul.pricing-section li ul.features {
+    margin: 0;
+}
+
+section.index-services .services-filter .service-images ul.pricing-section li ul.features li {
+    padding: 15px 20px 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    box-shadow: initial;
+    margin: 0;
+    font-size: 14px;
+}
+
+section.index-services .services-filter .service-images ul.pricing-section li ul.features li:first-child {
+    padding-top: 30px;
+}
+
+section.index-services .services-filter .service-images ul.pricing-section li ul.features li:last-child {
+    padding-bottom: 30px;
+}
+
+.service-images ul.pricing-section li .content {
+    box-shadow: 0px 0 0 0.3px rgba(0, 0, 0, .15);
+    padding-bottom: 33px;
+    border-radius: 5px;
+    background: #f3f3f3;
+}
+
+section.index-services .services-filter .service-images .current {
+    display: block;
+}
+
+section.index-services .services-filter .service-images .tab-content {
+    display: none;
+}
+
+section.index-services .services-filter .service-images .tab-content.current {
+    display: block;
+}
+
+
+/* ----End of Index Services------ */
+
+/* -------Index blog------ */
+section.index-blog {
+    width: 100%;
+    background: url(../images/keyboard.jpg);
+    float: left;
+    text-align: center;
+}
+
+section.index-blog .layer {
+    width: 100%;
+    height: 100%;
+    padding: 95px 0 105px;
+    background: linear-gradient(90deg, rgba(220, 83, 181, 0.7) 15%, rgba(109, 199, 239, 0.7) 82%);
+}
+
+section.index-blog ul {
+    margin: 0 -40px;
+}
+
+section.index-blog ul li {
+    padding: 0 40px;
+}
+
+section.index-blog ul li .overlay {
+    text-align: left;
+}
+
+section.index-blog ul li .overlay .blog-img {
+    position: relative;
+    margin-bottom: 31px;
+    overflow: hidden;
+}
+
+section.index-blog ul li .overlay .blog-img figure {
+    width: 487px;
+    height: 340px;
+    margin: 0;
+    /* width: 100%;
+    height: 100%; */
+    transition: all 0.7s;
+}
+
+section.index-blog ul li .overlay a:hover .blog-img figure {
+    transform: scale(1.2);
+}
+
+section.index-blog ul li .overlay a:hover .blog-img .blog-img-inner {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+section.index-blog ul li .overlay .blog-img .blog-img-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 10px solid rgba(255, 255, 255, .4);
+}
+
+
+section.index-blog ul li .overlay .blog-img img {
+    width: 100%;
+    height: 100%;
+}
+
+section.index-blog ul li .overlay a:first-child h5 {
+    font-size: 26px;
+    color: #fff;
+    letter-spacing: -0.6px;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+section.index-blog ul li .overlay a:last-child {
+    display: inline-block;
+    min-width: 152px;
+    height: 57px;
+    background: linear-gradient(180deg, rgba(255, 244, 123, 1) 22%, rgba(255, 223, 49, 1) 95%);
+    color: #000;
+    letter-spacing: -0.6px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 58px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.6s;
+}
+
+section.index-blog ul li .overlay a:last-child:hover {
+    background: #fff;
+    color: #000000;
+    border-radius: 50px;
+}
+
+section.index-blog .container h3 {
+    font-size: 35px;
+    color: #fff;
+    letter-spacing: -0.6px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+
+section.index-blog .container>p {
+    font-size: 17px;
+    line-height: 27px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 61px;
+}
+
+section.blog-page .navigation ul li {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #a1a1a1;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.14s;
+}
+
+section.blog-page .navigation ul li:hover {
+    background: #1bb4d9;
+}
+
+section.blog-page .navigation ul li:first-child {
+    background: #1bb4d9;
+}
+
+/* -------End of Index blog------ */
+
+
+/* ------index contact------ */
+section.index-contact {
+    width: 100%;
+    float: left;
+    background: url(../images/index-contact-bg.jpg);
+}
+
+section.index-contact .layer {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 91px 0 93px;
+}
+
+section.index-contact h3 {
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: -0.6px;
+    margin-bottom: 28px;
+}
+
+section.index-contact p {
+    font-size: 17px;
+    letter-spacing: -0.4px;
+    color: #fff;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+section.index-contact input {
+    min-height: 47px;
+    border: none;
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 43px;
+}
+
+section.index-contact input::placeholder {
+    font-size: 14px;
+    font-style: italic;
+}
+
+section.index-contact textarea::placeholder {
+    font-size: 14px;
+    font-style: italic;
+}
+
+section.index-contact textarea {
+    min-height: 167px;
+    border: none;
+    padding: 15px;
+    margin-bottom: 33px;
+}
+
+section.index-contact button {
+    background: linear-gradient(180deg, rgba(255, 244, 123, 1) 22%, rgba(255, 223, 49, 1) 95%);
+    display: inline-block;
+    min-width: 330px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+section.index-contact button:hover {
+    background: #fff;
+    border-radius: 50px;
+    color: #000000;
+}
+
+/* ------End of index contact----- */
+
+/* ------Footer------- */
+footer {
+    width: 100%;
+    float: left;
+    background: url(../images/footer-bg.jpg);
+    min-height: 135px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+}
+
+footer .layer {
+    width: 100%;
+    height: 135px;
+    background: linear-gradient(90deg, rgba(220, 83, 181, 0.7) 15%, rgba(109, 199, 239, 0.7) 82%);
+}
+
+footer .layer .container {
+    height: 100%;
+}
+
+footer .layer .container .navbar {
+    height: 100%;
+}
+
+footer .layer .container .navbar .navbar-brand {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgba(255, 255, 255, .2);
+}
+
+footer .layer .container .navbar .nav-link {
+    padding: 0 0.65rem;
+}
+
+footer .layer .container .navbar .nav-item:nth-last-child(2) .nav-link {
+    padding-right: 0;
+}
+
+footer .navbar-nav {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+footer nav ul li a {
+    font-size: 14px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000000;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li:last-child {
+    display: block;
+}
+
+footer ul li:last-child p {
+    text-align: right;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    line-height: 37px;
+    font-weight: 400;
+}
+
+footer ul li:last-child p a {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+footer ul li.nav-item:nth-last-child(2) a.nav-link {
+    padding-right: 0;
+}
+
+footer div.nav-sec {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+
+/* ------End of Footer------- */
+
+/* -----Scrolltop btn------- */
+button.scrolltop-btn {
+    position: fixed;
+    bottom: 22px;
+    right: 25px;
+    border: none;
+    background: #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    transition: all 0.4s;
+}
+
+button.scrolltop-btn i {
+    color: #fff;
+    font-size: 30px;
+}
+
+button.scrolltop-btn:hover {
+    transform: translateY(-5px);
+    background: #fff;
+}
+
+button.scrolltop-btn:hover i {
+    color: #000;
+}
+
+/* -----End of Scrolltop btn------- */
+
+
+/* -----Aboutus page------ */
+/* section.innerpage-banner {
+    min-height: 365px;
+} */
+
+section.innerpage-banner .container h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+section.about-page {
+    padding-top: 64px;
+    padding-bottom: 140px;
+}
+
+section.about-page .container {
+    max-width: 1000px;
+}
+
+section.about-page .container p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7 !important;
+    margin-bottom: 53px;
+}
+
+
+section.about-page .container h2 {
+    font-size: 31px;
+    color: #000000;
+    text-transform: capitalize;
+    line-height: 27px;
+    margin-bottom: 42px;
+}
+
+section.about-page ul li figure {
+    width: 100%;
+    height: 100%;
+}
+
+
+section.about-page ul li.col-lg-6 {
+    margin-bottom: 80px;
+}
+
+section.about-page ul li figure img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* -----End of Aboutus page------ */
+
+
+
+/* ------Blog page------- */
+section.blog-page {
+    text-align: left;
+    padding-top: 64px;
+    padding-bottom: 140px;
+}
+
+section.blog-page ul li .overlay a:first-child h5 {
+    color: #363636;
+    margin-bottom: 23px;
+    font-size: 26px;
+}
+
+section.blog-page ul li .overlay p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 40px;
+}
+
+section.blog-page ul li .overlay a:last-child {
+    display: inline-block;
+    min-width: 152px;
+    height: 57px;
+    background: linear-gradient(180deg, rgba(255, 244, 123, 1) 22%, rgba(255, 223, 49, 1) 95%);
+    color: #000;
+    letter-spacing: -0.6px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 58px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.6s;
+    margin-bottom: 75px;
+}
+
+section.blog-page ul li .overlay a:last-child:hover {
+    background: #fff;
+    color: #000000;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.15);
+
+}
+
+section.blog-page ul li .overlay .blog-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 31px;
+    overflow: hidden;
+}
+
+
+section.blog-page ul li .overlay .blog-img figure {
+    margin: 0;
+    transition: all 0.7s;
+}
+
+section.blog-page ul li .overlay a:hover .blog-img figure {
+    transform: scale(1.2);
+}
+
+
+section.blog-page ul li .overlay a:hover .blog-img .blog-img-inner {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+section.blog-page .container {
+    max-width: 980px;
+    padding: 0;
+}
+
+section.blog-page .container h2 {
+    font-size: 31px;
+    color: #000000;
+    text-transform: capitalize;
+    line-height: 27px;
+    margin-bottom: 42px;
+}
+
+section.blog-page ul li.col-md-6 {
+    padding: 0 40px;
+}
+
+section.blog-page ul {
+    margin: 0 -40px;
+}
+
+section.blog-page ul:last-child {
+    margin: 0px;
+}
+
+section.blog-page ul li .overlay .blog-img .blog-img-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 10px solid rgba(255, 255, 255, .4);
+}
+
+
+/* ------End of Blog page------ */
+
+/* -----blogsingle page------- */
+section.blogsingle {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 52px 0 0;
+}
+
+section.blogsingle h3 {
+    text-align: center;
+    margin-bottom: 41px;
+    font-size: 36px;
+    letter-spacing: -0.6px;
+    color: #363636;
+    font-weight: 400;
+    line-height: 44px;
+    padding: 0 50px;
+}
+
+section.blogsingle .overlay .blog-img {
+    max-width: 100%;
+    height: 596px;
+    position: relative;
+}
+
+section.blogsingle .overlay .blog-img img {
+    width: 100%;
+    height: 100%;
+}
+
+section.blogsingle .overlay .blog-img .blog-img-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 10px solid rgba(255, 255, 255, .4);
+}
+
+section.blogsingle>h6 {
+    font-weight: 300;
+    text-align: center;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: -0.2px;
+    border: 1px solid #e5e5e5;
+    border-left: 0;
+    border-right: 0;
+    padding: 20px 0;
+    margin-top: 50px;
+    margin-bottom: 53px;
+}
+
+section.blogsingle p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #636363;
+    letter-spacing: -0.2px;
+    margin-bottom: 30px;
+}
+
+section.blogsingle>h6 span {
+    font-weight: 500;
+}
+
+section.blogsingle .box {
+    padding: 52px;
+    border: 1px solid #cccccc;
+    margin-bottom: 50px;
+}
+
+section.blogsingle .box h6 {
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 36px;
+    margin: 0;
+    color: #636363;
+}
+
+section.blogsingle p:nth-child(6) {
+    margin-bottom: 40px;
+}
+
+section.blogsingle p:nth-child(10) {
+    margin-bottom: 0px;
+    padding-bottom: 81px;
+    border-bottom: 1px solid #c6c6c6;
+    margin-bottom: 39px;
+}
+
+section.blogsingle .similarposts {
+    margin-bottom: 40px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+section.blogsingle .similarposts h2,
+section.blogsingle .comments-posted h2,
+section.blogsingle .write-comment h2 {
+    text-transform: capitalize;
+    font-size: 41px;
+    letter-spacing: -0.6px;
+    color: #363636;
+    margin-bottom: 35px;
+}
+
+section.blogsingle .similarposts ul li.col-md-6 {
+    padding: 0 30px;
+}
+
+section.blogsingle .similarposts ul {
+    margin: 0 -30px;
+}
+
+section.blogsingle .similarposts ul li .overlay .blog-img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+section.blogsingle .similarposts ul li .overlay a:last-child {
+    background: transparent;
+    min-width: inherit;
+    height: inherit;
+    display: block;
+    margin: 0;
+}
+
+section.blogsingle .similarposts ul li .overlay a:last-child:hover {
+    box-shadow: initial;
+}
+
+section.blogsingle ul li .overlay a:first-child h5 {
+    color: #363636;
+    margin-bottom: 23px;
+    text-align: left;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    text-transform: initial;
+}
+
+section.blogsingle .write-comment ul {
+    margin: 0 -15px;
+}
+
+section.blogsingle .write-comment ul li {
+    padding: 0 15px;
+}
+
+section.blogsingle .comments-posted {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #c6c6c6;
+    margin-bottom: 40px;
+}
+
+section.blogsingle .comments-posted .comments {
+    padding: 30px;
+    background: #e6f8fb;
+    margin-bottom: 45px;
+    border: 1px solid #7ed4e2;
+}
+
+section.blogsingle .comments-posted .comments p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 32px;
+    color: #000000;
+}
+
+section.blogsingle .comments-posted .comments h5 {
+    font-size: 23px;
+    color: #000000;
+}
+
+section.blogsingle .comments-posted .comments h5 span {
+    font-size: 17px;
+}
+
+section.blogsingle .write-comment ul li input {
+    height: 47px;
+    padding: 15px;
+    border: 1px solid #c5c5c5;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+section.blogsingle .write-comment ul li input::placeholder,
+section.blogsingle .write-comment ul li textarea::placeholder {
+    font-size: 14px;
+    font-style: italic;
+    color: #cccccc;
+}
+
+section.blogsingle .write-comment ul li textarea {
+    height: 150px;
+    padding: 15px;
+    border: 1px solid #c5c5c5;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+section.blogsingle .write-comment button {
+    display: inline-block;
+    min-width: 252px;
+    height: 57px;
+    background: linear-gradient(180deg, rgba(255, 244, 123, 1) 22%, rgba(255, 223, 49, 1) 95%);
+    color: #000;
+    letter-spacing: -0.6px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 58px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.6s;
+    margin-bottom: 75px;
+}
+
+/* ------End of blogsingle page------- */
+
+/* ------Support page-------- */
+section.support-page .container h2 {
+    margin-bottom: 56px;
+}
+
+section.support-page .container p {
+    margin-bottom: 52px;
+}
+
+section.support-page .container h4 {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 0 0 5px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+/* ------End of Support page----- */
+
+
+/* -----Contact page------ */
+section.contact-page {
+    background: none;
+}
+
+section.contact-page input {
+    border: 1px solid #efeaea;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+section.contact-page textarea {
+    border: 1px solid #efeaea;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+/* -----End of contact page----- */
+
+
+/* -----Portfolio page------- */
+section.portfolio-page .container {
+    max-width: 980px;
+}
+
+section.portfolio-page ul li .portfolio-gallery {
+    width: 284px;
+    height: 284px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    margin-bottom: 78px;
+    position: relative;
+    cursor: pointer;
+}
+
+section.portfolio-page ul li .portfolio-gallery .portfolio-img {
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+section.portfolio-page ul li .portfolio-gallery .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.85);
+    opacity: 0;
+    visibility: hidden;
+    display: table;
+    transition: all 0.4s;
+}
+
+
+section.portfolio-page ul li .portfolio-gallery:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+section.portfolio-page ul li .portfolio-gallery .portfolio-img img {
+    width: 100%;
+    height: 100%;
+}
+
+section.portfolio-page ul li .portfolio-gallery .overlay span {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+
+section.portfolio-page ul li .portfolio-gallery .overlay span a {
+    display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #fff;
+}
+
+section.portfolio-page ul li .portfolio-gallery .overlay span a:hover {
+    color: #fff;
+}
+
+
+.nav-sec ul li .nav-link.active {
+    color: rgb(255, 223, 49) !important;
+}
+
+.nav-sec ul li .nav-link:hover {
+    color: rgb(255, 223, 49) !important;
+}
+
+/* ------End of Portfolio page----- */
+
+
+/* ------Services page------- */
+section.services-page {
+    padding-top: 64px;
+    padding-bottom: 140px;
+}
+
+section.services-page .container {
+    max-width: 980px;
+}
+
+section.services-page .container h2 {
+    font-size: 31px;
+    color: #000000;
+    text-transform: capitalize;
+    line-height: 27px;
+    margin-bottom: 42px;
+}
+
+section.services-page ul li h3 {
+    display: flex;
+    justify-content: space-between;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    margin: 0px;
+    color: #000000;
+    cursor: pointer;
+}
+
+section.services-page ul li h3 i {
+    cursor: pointer;
+}
+
+section.services-page ul li div.services-inner {
+    border: 1px solid #a5a5a5;
+    padding: 64px 48px;
+    margin-bottom: 75px;
+}
+
+section.services-page ul li div.services-inner ul {
+    padding-top: 25px;
+}
+
+section.services-page ul li div.services-inner ul li figure {
+    width: 100%;
+    height: 303px;
+}
+
+section.services-page ul li div.services-inner ul li figure img {
+    max-width: 100%;
+    height: 100%;
+}
+
+section.services-page .services-inner p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+/* -------End of Services page----- */
+
+/* ------contact page----- */
+section.contact-banner h1 {
+    padding: 0 137px;
+}
+
+section.contact-page ul li:first-child {
+    padding: 0 15px;
+}
+
+section.contact-page ul li:nth-child(2) {
+    padding: 0 15px;
+}
+
+/* ------End of contact page------ */
+
+/* -----1920------- */
+
+@media(max-width:1920px) and (min-width: 1840px) {
+    .container {
+        max-width: 1440px;
+    }
+
+    section.banner .container h1 {
+        padding: 0 46px;
+    }
+
+    section.index-about-sec .container>p {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 35px;
+    }
+
+    section.index-about-sec ul li .index-abt-content h3 {
+        padding-right: 100px;
+    }
+
+    section.index-about-sec ul li .index-abt-content p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    section.index-services .services-filter .service-images ul li {
+        width: 344px;
+        height: 325px;
+    }
+
+    section.index-services .services-filter .service-list h3 {
+        padding: 59px;
+    }
+
+    section.index-blog ul li .overlay .blog-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    section.about-page .container {
+        max-width: 1340px;
+    }
+
+    section.innerpage-banner .container h1 {
+        padding: 0 320px;
+    }
+
+    section.support-page .container h4 {
+        margin: 0 0 10px;
+    }
+
+    section.about-page ul li figure {
+        width: 100%;
+        height: 550px;
+    }
+
+    section.about-page .container p {
+        font-size: 17px;
+        line-height: 33px;
+    }
+
+    section.contact-banner .container h1 {
+        padding: 0 320px;
+    }
+
+    section.blog-page .container {
+        max-width: 1340px;
+    }
+
+    section.contact-banner {
+        padding-top: 260px;
+    }
+
+    section.blogsingle {
+        max-width: 1340px;
+    }
+
+    section.blogsingle .similarposts,
+    section.blogsingle .comments-posted {
+        margin-bottom: 80px;
+    }
+
+    section.blogsingle .write-comment button {
+        margin-bottom: 200px;
+    }
+
+    section.blogsingle p:nth-child(10) {
+        margin-bottom: 79px;
+    }
+
+    section.blogsingle .overlay .blog-img {
+        height: 800px;
+    }
+
+    section.blogsingle h3 {
+        padding: 0 294px;
+    }
+
+    section.blogsingle>h6 {
+        font-size: 21px;
+    }
+
+    section.blogsingle p {
+        font-size: 19px;
+        line-height: 36px;
+    }
+
+    section.portfolio-page ul li .portfolio-gallery {
+        width: 370px;
+        height: 370px;
+    }
+
+    section.services-page .container {
+        max-width: 1340px;
+    }
+
+    section.services-page ul li div.services-inner ul li figure {
+        width: 100%;
+        height: 400px;
+    }
+
+    section.services-page ul li div.services-inner ul li figure img {
+        width: 100%;
+        height: 100%;
+    }
+
+    section.services-page .services-inner p {
+        font-size: 17px;
+        line-height: 34px;
+        color: #000000;
+        opacity: 0.6;
+        margin-bottom: 55px;
+    }
+
+    section.index-services .services-filter .service-images ul.pricing-section li ul.features li {
+        font-size: 16px;
+    }
+
+    section.index-services .services-filter .service-images {
+        float: left;
+        width: 80%;
+        padding: 40px 40px 33px 40px;
+        text-align: right;
+    }
+
+    .service-images ul.article-section li h4 {
+        font-size: 27px;
+        letter-spacing: -0.6px;
+        text-align: left;
+        text-transform: capitalize;
+        margin: 20px 0 15px;
+    }
+
+    .service-images ul.article-section li p {
+        font-size: 17px;
+        line-height: 34px;
+        margin-bottom: 30px;
+    }
+
+    section.index-services .services-filter .service-images ul.pricing-section {
+        margin-bottom: 50px;
+    }
+
+    section.index-services .services-filter .service-images ul.pricing-section li ul.features li {
+        padding: 20px 30px 0;
+    }
+
+    section.index-services .services-filter .service-images ul.pricing-section li {
+        margin: 0 14px;
+    }
+
+    section.index-blog ul li .overlay .blog-img figure {
+        width: 100%;
+        height: 400px;
+    }
+
+    section.portfolio-page ul li figure {
+        width: 100%;
+        height: 375px;
+    }
+
+    section.index-services .services-filter .service-images ul.pricing-section {
+        padding-top: 50px;
+    }
+}
+
+/* ----End of 1920----- */
+@media (max-width:1024px) {
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    /* -----Index page------ */
+    section.index-blog ul {
+        margin: 0 -15px;
+    }
+
+    section.index-blog ul li {
+        padding: 0 15px;
+    }
+
+    section.index-blog ul li .overlay .blog-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    section.banner .container h6 {
+        font-size: 27px;
+        margin-bottom: 50px;
+    }
+
+    section.banner {
+        padding-top: 200px;
+        padding-bottom: 120px;
+    }
+
+    section .container .get-started-btn {
+        font-size: 18px;
+        min-height: 52px;
+        line-height: 52px;
+        width: 200px;
+    }
+
+    section.index-about-sec h5 {
+        font-size: 32px;
+    }
+
+    section.index-about-sec .layer {
+        padding-top: 60px;
+        padding-bottom: 65px;
+    }
+
+    section.index-services .services-filter .service-images {
+        width: 100%;
+        padding: 40px 19px 33px 0;
+    }
+
+    section.index-services .services-filter .service-list {
+        width: 100%;
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+    }
+
+    section.index-services .services-filter .service-list h3 {
+        font-size: 22px;
+        padding: 30px 0;
+        text-align: center;
+        flex-grow: 1;
+        border: 1px solid #cacaca;
+        border-top: 0;
+        border-left: 0;
+    }
+
+    section.index-services .services-filter .service-list h3.current {
+        border-right: 1px solid #cacaca;
+    }
+
+    section.index-services .services-filter .service-list h3:last-child {
+        border-right: 0;
+    }
+
+    section.index-services .services-filter .service-images ul li {
+        width: 32.5%;
+    }
+
+    section.index-blog .container h3 {
+        font-size: 30px;
+    }
+
+    section.index-blog ul li .overlay a:first-child h5 {
+        font-size: 22px;
+    }
+
+    section.index-blog ul li .overlay a:last-child {
+        height: 41px;
+        line-height: 41px;
+        font-size: 15px;
+    }
+
+    section.index-blog .container>p,
+    section.index-contact p {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 31px;
+    }
+
+    section.index-contact h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    section.index-contact .layer {
+        padding: 61px 0 63px;
+    }
+
+    section.index-blog .layer {
+        padding: 65px 0 75px;
+    }
+
+    section.index-services {
+        padding: 66px 0;
+    }
+
+    /* -----End of Index page----- */
+
+    /* -----blog page------ */
+    section.blog-page .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    section.blog-page ul {
+        margin: 0 -15px;
+    }
+
+    section.blog-page ul li.col-md-6 {
+        padding: 0 15px;
+    }
+
+    section.blog-page {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    section.banner .container h1 {
+        font-size: 44px;
+        padding: 0 135px;
+    }
+
+    section.blog-page .container h2 {
+        font-size: 26px;
+    }
+
+    section.blog-page ul li .overlay a:first-child h5 {
+        font-size: 22px;
+    }
+
+    section.blog-page ul li .overlay p {
+        font-size: 15px;
+        margin-bottom: 22px;
+    }
+
+    section.blog-page ul li .overlay a:last-child {
+        min-width: 120px;
+        height: 39px;
+        font-size: 13px;
+        line-height: 39px;
+        margin-bottom: 50px;
+    }
+
+    section.blog-page ul li .overlay .blog-img {
+        margin-bottom: 21px;
+    }
+
+    section.blog-page ul li .overlay a:first-child h5 {
+        margin-bottom: 15px;
+    }
+
+    /* -----End of blog page------- */
+
+    /* -----blog single------ */
+    section.blogsingle {
+        max-width: 100%;
+        padding: 52px 20px 0;
+    }
+
+    section.blogsingle .similarposts ul li.col-md-6 {
+        padding: 0 15px;
+    }
+
+    section.blogsingle .similarposts ul {
+        margin: 0 -15px;
+    }
+
+    section.blogsingle .overlay .blog-img {
+        height: 550px;
+    }
+
+    section.blogsingle h3 {
+        font-size: 30px;
+        padding: 0 128px;
+    }
+
+    section.blogsingle .box h6 {
+        font-size: 20px;
+    }
+
+    section.blogsingle .box {
+        padding: 32px;
+        margin-bottom: 35px;
+    }
+
+    section.blogsingle>h6 {
+        margin-bottom: 43px;
+    }
+
+    section.blogsingle p:nth-child(10) {
+        padding-bottom: 51px;
+    }
+
+    section.blogsingle .similarposts h2,
+    section.blogsingle .comments-posted h2,
+    section.blogsingle .write-comment h2 {
+        font-size: 28px;
+    }
+
+    section.blogsingle .similarposts {
+        padding-bottom: 35px;
+        margin-bottom: 50px;
+    }
+
+    section.blogsingle .comments-posted {
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+    }
+
+    section.blogsingle .write-comment button {
+        min-width: 203px;
+        height: 44px;
+        font-size: 14px;
+        line-height: 44px;
+    }
+
+    section.blogsingle .comments-posted .comments h5 {
+        font-size: 18px;
+    }
+
+    section.blogsingle .comments-posted .comments h5 span {
+        font-size: 15px;
+    }
+
+    section.blogsingle .comments-posted .comments p {
+        font-size: 16px;
+    }
+
+    section.blogsingle p {
+        font-size: 16px;
+    }
+
+    /* ----End of blog single------ */
+
+    /* ----contact page----- */
+    section.contact-page {
+        padding: 40px 0 60px;
+    }
+
+    section.about-page .container h2 {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+
+    /* -----End of contact page----*/
+
+    /* ----portfolio page------ */
+    section.portfolio-page .container h2 {
+        margin-bottom: 20px;
+    }
+
+    section.portfolio-page .container p {
+        margin-bottom: 30px;
+    }
+
+    section.portfolio-page ul li .portfolio-gallery {
+        margin-bottom: 40px;
+    }
+
+    section.portfolio-page {
+        padding: 40px 0;
+    }
+
+    section.portfolio-page ul li .portfolio-gallery figure {
+        width: 100%;
+        margin: 0;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+
+    section.portfolio-page ul li .portfolio-gallery {
+        width: 100%;
+        height: 284px;
+    }
+
+    /* -----End of Portfoilio----- */
+
+    /* -----support page----- */
+    section.support-page {
+        padding: 44px 0 40px;
+    }
+
+    section.support-page .container p {
+        margin-bottom: 32px;
+    }
+
+    /* ------End of support page----- */
+
+    /* ------about page------ */
+    section.about-page ul li.col-lg-6 {
+        margin-bottom: 35px;
+    }
+
+    section.about-page {
+        padding: 35px 0 60px;
+    }
+
+    /* ------end of about page------ */
+}
+
+
+
+@media(max-width:992px) {
+    header .navbar .header-nav {
+        position: fixed;
+        top: 0;
+        right: -250px;
+        opacity: 0;
+        visibility: hidden;
+        width: 250px;
+        height: 100%;
+        padding-left: 0;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.8);
+        transition: all 0.5s;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    header .navbar .header-nav .nav-item {
+        margin: 10px 0;
+    }
+
+    header .search-box {
+        margin-left: auto;
+    }
+
+    section.index-about-sec ul li .index-abt-content {
+        margin-bottom: 30px;
+    }
+
+    section.index-about-sec ul li .index-abt-content h3 {
+        padding-right: 0;
+    }
+}
+
+@media(max-width:812px) {
+    section.banner .container h1 {
+        font-size: 42px;
+        padding: 0 95px;
+        margin-bottom: 25px;
+    }
+
+    section.banner .container h6 {
+        font-size: 24px;
+    }
+
+    section.index-about-sec h5 {
+        font-size: 24px;
+        letter-spacing: -0.2px;
+        margin-bottom: 20px;
+    }
+
+    section.index-about-sec .container>p {
+        font-size: 15px;
+    }
+
+    section.index-services .services-filter .service-images {
+        padding: 40px 23px 33px 0;
+    }
+
+    section.index-about-sec ul li .index-abt-content p {
+        font-size: 15px;
+        letter-spacing: -0.2px;
+        line-height: 27px;
+    }
+
+    section.index-blog .container h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    section.index-blog ul li .overlay a:first-child h5 {
+        font-size: 20px;
+    }
+
+    section.index-contact h3 {
+        font-size: 22px;
+    }
+
+    section.index-blog .container>p,
+    section.index-contact p {
+        font-size: 15px;
+    }
+
+    section.index-blog ul li .overlay .blog-img {
+        margin-bottom: 20px;
+    }
+
+    section.index-blog ul li .overlay a:first-child h5 {
+        margin-bottom: 20px;
+    }
+
+    section.index-blog .layer {
+        padding: 45px 0 55px;
+    }
+
+    section.index-blog ul li .overlay a:last-child {
+        height: 35px;
+        line-height: 35px;
+        font-size: 13px;
+        min-width: 120px;
+    }
+
+    section.index-contact button {
+        min-width: 200px;
+        height: 41px;
+        line-height: 41px;
+        font-size: 14px;
+    }
+
+    section.index-contact .layer {
+        padding: 41px 0 43px;
+    }
+
+    section.index-about-sec .layer {
+        padding: 40px 0 15px;
+
+    }
+
+    section.index-about-sec .container>p {
+        margin-bottom: 30px;
+    }
+
+    section.index-services {
+        padding: 46px 0;
+    }
+
+    section.index-contact input {
+        margin-bottom: 25px;
+    }
+
+    section.index-contact textarea {
+        margin-bottom: 23px;
+    }
+
+    section .container .get-started-btn {
+        font-size: 15px;
+        min-height: 46px;
+        line-height: 46px;
+        width: 200px;
+    }
+
+    section.banner {
+        padding-bottom: 90px;
+    }
+
+    section.banner .container h6 {
+        font-size: 24px;
+        margin-bottom: 35px;
+    }
+
+    section.index-services .services-filter .service-list h3 {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+    /* ----blog page----- */
+    section.blog-page ul li .overlay a:first-child h5 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    /* ----End of Blog page------ */
+
+    /* -----Blog Single----- */
+    section.blogsingle .overlay .blog-img {
+        height: 465px;
+    }
+
+    section.blogsingle h3 {
+        padding: 0px 75px;
+        margin-bottom: 35px;
+    }
+
+    section.blogsingle>h6 {
+        margin-bottom: 27px;
+        margin-top: 35px;
+        padding: 15px 0;
+    }
+
+    section.blogsingle p {
+        margin-bottom: 20px;
+    }
+
+    section.blogsingle .box {
+        margin-bottom: 25px;
+    }
+
+    section.blogsingle .box h6 {
+        font-size: 18px;
+    }
+
+    section.blogsingle p:nth-child(10) {
+        padding-bottom: 31px;
+    }
+
+    section.blogsingle ul li .overlay a:first-child h5 {
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    section.blogsingle .similarposts {
+        padding-bottom: 25px;
+        margin-bottom: 35px;
+    }
+
+    section.blogsingle .comments-posted {
+        padding-bottom: 10px;
+        margin-bottom: 40px;
+    }
+
+    section.blogsingle {
+        padding: 40px 20px 0;
+    }
+
+    section.blogsingle p:nth-child(6) {
+        margin-bottom: 30px;
+    }
+
+    /* -----End of Blog Single------ */
+
+    /* -----contact page----- */
+    section.about-page .container h2 {
+        font-size: 24px;
+    }
+
+    /* -----End of contact page------ */
+
+    section.about-page ul li.col-lg-6 {
+        margin-bottom: 0px;
+    }
+
+    section.about-page .container p {
+        font-size: 15px;
+        margin: 30px 0 0;
+    }
+
+    section.services-page ul li h3 {
+        font-size: 24px;
+    }
+
+    section.services-page ul li div.services-inner {
+        padding: 40px;
+    }
+
+    section.index-services .services-filter .service-images ul li {
+        width: 32.9%;
+    }
+
+    section.index-services .services-filter .service-images {
+        padding: 40px 10px 33px;
+    }
+
+    section.portfolio-page .container p,
+    section.support-page .container p {
+        margin: 10px 0 20px;
+    }
+}
+
+@media(max-width:768px) {
+    section.index-about-sec ul li .index-abt-content h3 {
+        font-size: 18px;
+    }
+
+    footer {
+        min-height: 110px;
+    }
+
+    footer .layer {
+        height: 110px;
+    }
+
+    section.services-page ul li div.services-inner ul li figure {
+        width: 100%;
+        height: 550px;
+    }
+
+    section.services-page ul li div.services-inner ul li figure img {
+        width: 100%;
+    }
+
+    section.index-services .services-filter .service-images ul.pricing-section li {
+        width: 46%;
+        margin: 0 13px;
+    }
+}
+
+@media(max-width:640px) {
+    section.banner .container h1 {
+        font-size: 36px;
+    }
+
+    section.banner .container h6 {
+        font-size: 22px;
+    }
+
+    section.index-about-sec ul li .index-abt-content h3 {
+        font-size: 15px;
+    }
+
+    section.index-about-sec ul li .index-abt-content p {
+        font-size: 14px;
+    }
+
+    section.index-services .services-filter .service-images ul li {
+        width: 49.6%;
+    }
+
+    section.index-services .services-filter .service-images {
+        padding: 40px 10px 33px 8px;
+    }
+
+    section.index-blog .container h3 {
+        font-size: 24px;
+        line-height: 32px;
+        padding: 0 70px;
+    }
+
+    section.index-blog ul li .overlay .blog-img {
+        margin-bottom: 15px;
+    }
+
+    section.index-blog ul li .overlay a:first-child h5 {
+        margin-bottom: 10px;
+    }
+
+    section.index-blog ul li .overlay a:last-child {
+        margin-bottom: 45px;
+    }
+
+    footer nav ul li a {
+        font-size: 13px;
+    }
+
+    footer .layer .container .navbar .nav-link {
+        padding: 0 0.3rem;
+    }
+
+    section.index-services .services-filter .service-images ul.article-section li {
+        width: 100%;
+        height: 300px;
+    }
+
+    section.index-services .services-filter .service-images ul.article-section li:last-child {
+        margin-top: 40px;
+    }
+
+    /* -----blog page----- */
+    section.blog-page {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    section.blog-page .container h2 {
+        margin-bottom: 30px;
+    }
+
+    /* ----End of blog page----- */
+
+    /* ----blog single----- */
+    section.blogsingle h3 {
+        padding: 0;
+        font-size: 25px;
+        margin-bottom: 28px;
+        line-height: 35px;
+    }
+
+    section.blogsingle .overlay .blog-img {
+        height: 375px;
+    }
+
+    section.blogsingle ul li .overlay a:first-child h5 {
+        margin-bottom: 30px;
+    }
+
+    section.blogsingle .similarposts ul li .overlay .blog-img {
+        margin-bottom: 10px;
+    }
+
+    section.blogsingle p:nth-child(10) {
+        margin-bottom: 28px;
+    }
+
+    section.blogsingle .similarposts h2,
+    section.blogsingle .comments-posted h2,
+    section.blogsingle .write-comment h2 {
+        margin-bottom: 25px;
+    }
+
+    section.blogsingle .similarposts {
+        padding-bottom: 5px;
+        margin-bottom: 30px;
+    }
+
+    section.blogsingle .comments-posted .comments {
+        margin-bottom: 40px;
+    }
+
+    section.blogsingle .write-comment button {
+        margin-bottom: 45px;
+    }
+
+    /* -----End of blog single---- */
+    /* ------support page----- */
+    section.support-page {
+        padding: 24px 0 30px;
+    }
+
+    section.support-page .container h2 {
+        margin-bottom: 20px;
+    }
+
+    /* ----End of support page---- */
+
+    section.services-page ul li div.services-inner ul li figure {
+        height: 450px;
+    }
+
+    section.index-services .services-filter .service-images ul.pricing-section li {
+        width: calc(100% - 10%);
+        margin-right: 5%;
+    }
+
+    section.index-services .services-filter .service-images ul.pricing-section li:first-child {
+        margin-bottom: 50px;
+    }
+    section.index-services .services-filter .service-images ul.pricing-section {
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width:480px) {
+    section.banner .container h1 {
+        padding: 0;
+        font-size: 30px;
+    }
+
+    section.index-services .services-filter .service-list h3 {
+        font-size: 16px;
+    }
+
+    section.index-services .services-filter .service-images ul li {
+        width: 100%;
+    }
+
+    header div.search-box {
+        display: none;
+    }
+
+    header .menu-icon {
+        margin-left: auto;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    section.index-blog .container h3 {
+        padding: 0;
+    }
+
+    footer .layer .container .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer .layer .container .navbar .navbar-brand {
+        border: 0;
+        padding-top: 20px;
+    }
+
+    footer ul li {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    footer .layer {
+        height: auto;
+        background-repeat: no-repeat;
+    }
+
+    section.index-blog .layer {
+        padding-bottom: 0;
+    }
+
+    section.banner {
+        padding-top: 165px;
+    }
+
+    section.index-about-sec .container>p {
+        font-size: 14px;
+    }
+
+    section.index-about-sec h5 {
+        font-size: 22px;
+    }
+
+    section.index-blog .container h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    section.index-blog ul li .overlay a:first-child h5 {
+        margin-bottom: 12px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    section.index-contact h3 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    footer div.nav-sec {
+        padding-top: 20px;
+    }
+
+    footer ul li:last-child p {
+        text-align: left;
+        line-height: 27px;
+    }
+
+    section.blog-page ul li .overlay .blog-img {
+        margin-bottom: 11px;
+    }
+
+    section.blog-page ul li .overlay a:first-child h5 {
+        margin-bottom: 5px;
+    }
+
+    section.innerpage-banner .container h1 {
+        margin: 0;
+    }
+
+    section.blog-page .container h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    section.blog-page ul li .overlay p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    section.blogsingle h3 {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+
+    section.blog-page {
+        padding-top: 25px;
+    }
+
+    section.blogsingle .overlay .blog-img {
+        height: 275px;
+    }
+
+    section.blogsingle p {
+        font-size: 15px;
+    }
+
+    section.blogsingle .box h6 {
+        font-size: 16px;
+    }
+
+    section.blogsingle .box {
+        padding: 25px;
+    }
+
+    section.blogsingle ul li .overlay a:first-child h5 {
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    section.blogsingle .similarposts h2,
+    section.blogsingle .comments-posted h2,
+    section.blogsingle .write-comment h2 {
+        font-size: 22px;
+    }
+
+    section.blogsingle .comments-posted .comments {
+        padding: 25px;
+    }
+
+    section.portfolio-page ul li .portfolio-gallery {
+        height: 350px;
+    }
+
+    section.about-page .container p {
+        margin: 20px 0 0;
+    }
+
+    section.services-page ul li div.services-inner ul li figure {
+        height: 100%;
+    }
+
+    section.services-page ul li h3 {
+        font-size: 19px;
+    }
+
+    section.services-page ul li div.services-inner {
+        padding: 40px 20px;
+    }
+
+    section.services-page .services-inner p {
+        margin: 20px 0 0;
+    }
+
+    section.services-page ul li div.services-inner {
+        margin-bottom: 40px;
+    }
+
+    section.services-page ul li:first-child .services-inner h3 i {
+        display: inline-block;
+        line-height: 37px;
+    }
+
+    section.index-services .services-filter .service-images ul.article-section li {
+        height: 225px;
+    }
+
+    .service-images ul.article-section li .article-btn {
+        min-height: 34px;
+        line-height: 34px;
+        font-size: 14px;
+    }
+
+    .service-images ul.article-section li h4 {
+        font-size: 21px;
+    }
+
+    section.index-services .services-filter .service-images ul.pricing-section li ul.features li {
+        font-size: 13px;
+    }
+
+    section.index-services .services-filter .service-images ul.pricing-section li:first-child {
+        margin-bottom: 30px;
+    }
+
+    section.portfolio-page .container p{
+        margin: 0 0 30px;
+    }
+    section.support-page .container p{
+        margin: 10px 0 20px;
+    }
+}
+
+@media(max-width:375px) {
+    section.banner .container h1 {
+        font-size: 27px;
+    }
+
+    section.index-blog .container h3 {
+        font-size: 20px;
+    }
+
+    section.banner .container h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    section.banner .container h6 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    section.index-about-sec h5 {
+        font-size: 20px;
+    }
+
+    section.index-contact h3 {
+        font-size: 18px;
+    }
+
+    section.index-services .services-filter .service-list h3 {
+        font-size: 14px;
+    }
+
+    section.blogsingle h3 {
+        font-size: 20px;
+    }
+
+    section.blogsingle .overlay .blog-img {
+        height: 250px;
+    }
+
+    section.about-page {
+        padding: 20px 0 30px;
+    }
+
+    section.about-page .container h2 {
+        margin-bottom: 20px;
+    }
+
+    section.services-page ul li:last-child .services-inner h3 i {
+        display: inline-block;
+        line-height: 37px;
+    }
+}
+
+@media(max-width:360px) {
+    section.index-about-sec h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .service-images ul.article-section li h4 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:320px) {
+    section.blogsingle h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    section.blogsingle .overlay .blog-img {
+        height: 225px;
+    }
+
+    section.blogsingle>h6 {
+        font-size: 16px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    section.blogsingle p {
+        margin-bottom: 15px;
+    }
+
+    section.blogsingle ul li .overlay a:first-child h5 {
+        font-size: 18px;
+    }
+
+    section.banner .container h1 {
+        font-size: 25px;
+    }
+
+    section.services-page ul li .services-inner h3 i {
+        display: inline-block;
+        line-height: 37px;
+    }
+}
